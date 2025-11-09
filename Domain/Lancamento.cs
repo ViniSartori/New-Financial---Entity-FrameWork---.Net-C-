@@ -10,7 +10,7 @@
             Data = DateTime.Now;
         }
 
-        // ⚠️ Propriedade precisa ser pública para o EF mapear
+        
         public int Id { get; set; }
 
         public DateTime Data { get; set; } = DateTime.Now;
@@ -21,7 +21,7 @@
 
         public decimal Saldo { get; set; }
 
-        // 🔹 Classe auxiliar para filtros
+        
         public class LancamentoFiltro
         {
             public int? Id { get; set; }
